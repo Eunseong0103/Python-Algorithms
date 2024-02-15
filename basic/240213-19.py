@@ -5,3 +5,14 @@
 # S. 2 ≤ slice ≤ 10 , 1 ≤ n ≤ 100
 
 
+def solution(slice, n):
+    result=0
+    if n%slice != 0:
+        result=n//slice+1     
+    else:
+        result=n/slice
+    return result
+
+# def solution(slice, n):
+#     return ((n - 1) // slice) + 1
+
