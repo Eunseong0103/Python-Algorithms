@@ -6,4 +6,5 @@
 
 # S. 1 ≤ n ≤ 100
 
-print(6//7+1)
+def solution(n):
+    return (n - 1) // 7 + 1
