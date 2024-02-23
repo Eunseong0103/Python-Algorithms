@@ -12,4 +12,16 @@
 # 주사위는 상자와 평행하게 넣습니다.
 
 
+def solution(box, n):
+    lis=[]
+    for i in box:
+        lis.append(i//n)
+    return lis[0]*lis[1]*lis[2]
 
+
+
+# def solution(box, n):
+#     answer = 1
+#     for b in box:
+#         answer *= b // n
+#     return answer
