@@ -9,3 +9,11 @@
 #    numbers의 첫 번째와 마지막 번호는 실제로 바로 옆에 있습니다.
 #    numbers는 1부터 시작하며 번호는 순서대로 올라갑니다.
 
+
+#??
+def solution(numbers, k):
+    return numbers[2 * (k - 1) % len(numbers)]
+
+#!피보나치 수열
+#! f(n)=f(n-1)+f(n-2)
+#! f(0)=0 , f(1)=1
